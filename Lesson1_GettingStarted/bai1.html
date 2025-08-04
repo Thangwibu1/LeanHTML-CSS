@@ -1,0 +1,79 @@
+<!-- comment -->
+<!-- 
+    HTML: HyperText Markup Language
+    -> Html is not a programming language.
+    
+    Alt + L + O
+    đơn vị code html: thẻ/tag
+    <nametag attribute(Optinal)> content(Optinal) </nametag>
+    open tag: <nametag>
+    close tag: </nametag>
+    open = close
+-->
+<!-- Khai báo cái chuẩn mà mình lập trình cho trang web 
+    - Chuẩn: HTML5, XML, XHTML, JSP...
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 1</title>
+  </head>
+  <body>
+    <!-- thẻ tiêu đề: h1, h2, h3... h6 -->
+    <h1>Hello</h1>
+    <br />
+    <h2>Hello</h2>
+    <h3>Hello</h3>
+    <h4>Hello</h4>
+    <h5>Hello</h5>
+    <h6>Hello</h6>
+    <!-- thẻ đoạn văn bản: p -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore possimus
+      aliquid perferendis nesciunt, ipsum vero iure ipsam quam asperiores iusto
+      odio consectetur deserunt, placeat ratione magni ab accusamus illum
+      voluptatem.
+    </p>
+    <span style="color: blueviolet">Break of pagragraph</span>
+    <hr />
+    <br />
+    <span
+      ><i style="font-weight: bolder">Lorem</i> <strong>ipsum</strong> dolor sit
+      amet consectetur adipisicing elit. Provident magni molestiae labore, totam
+      dicta repellat maxime, modi dolorum earum incidunt quae delectus eum
+      ratione sed, fugiat ipsam nulla nobis sequi?</span
+    >
+    <span style="color: red">Break of span</span>
+    <br />
+    <!-- link tag -->
+    <a href="https://youtube.com">Google</a>
+    <div style="width: 100%; height: 0.05px; background-color: red"></div>
+
+    <div id="father" style="width: 100%; height: 300px; background-color: burlywood;">
+        <div class="son"></div>
+        <div class="son"></div>
+
+    </div>
+    <div id="mother" style="width: 100%; height: 300px; background-color: burlywood;">
+        <div class="son"></div>
+        <div class="son"></div>
+    </div>
+    <style>
+        #father {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .son {
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            margin: 10px;
+        }
+    </style>
+  </body>
+</html>
