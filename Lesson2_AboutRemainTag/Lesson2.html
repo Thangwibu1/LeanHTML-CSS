@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 2</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        th {
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        
+    </style>
+
+  </head>
+  <body>
+    <section>
+      <h3>Giới thiệu về section</h3>
+      <p>Nội dung mô tả về các dịch vụ chúng tôi cung cấp.</p>
+    </section>
+
+    <div>
+      <h3>Giới thiệu về div</h3>
+      <p style="display: inline">
+        Nội dung mô tả về các dịch vụ chúng tôi cung cấp.
+      </p>
+      <span style="display: inline">pla pla pla</span>
+    </div>
+
+    <!-- Form -->
+    <form action="#">
+        <label for="username">Username <br/></label>
+        <input type="text" name="username" id="username"/>
+        <br />
+        <label for="password">Password <br/></label>
+        <input type=password" name="password" id="password"/>
+        <br>
+        <label for="">Gender: </label>
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+
+        <!-- type radio: dùng để trả về 1 giá trị duy nhất cho 1 biến
+             type checkbox: dùng để trả về 1 mảng -->
+        
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Tên</th>
+                <th>Tuổi</th>
+                <th>Giới tính</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Nguyễn Văn A</td>
+                <td>25</td>
+                <td>Nam</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Trần Thị B</td>
+                <td>30</td>
+                <td>Nữ</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Lê Văn C</td>
+                <td>28</td>
+                <td>Nam</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- list -->
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+
+
+    <img src="Image/img1.jpg" alt="block diagram">
+    <img src="Image/img1.jpg" alt="block diagram">
+    <img src="Image/img1.jpg" alt="block diagram">
+    <img src="Image/img1.jpg" alt="block diagram">
+    <img src="Image/img1.jpg" alt="block diagram">
+    <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.441869877478!2d106.79927977464175!3d10.865518989308695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175276e0261aa89%3A0x7d025b6a79857d4a!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBGQlQgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5o!5e0!3m2!1svi!2s!4v1678255000000!5m2!1svi!2s"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+></iframe>
+    
+    
+    <!-- Có 3 kiểu viết Css
+        1: Inline: Viết trực tiếp vào thuộc tính của thẻ
+        2: Internal: Viết trong cặp thẻ style
+        3: External: Viết trong file css riêng, sau đó liên kết với html bằng thẻ link
+    -->
+
+
+  </body>
+</html>
