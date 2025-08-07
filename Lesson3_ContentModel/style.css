@@ -1,0 +1,46 @@
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* padding */
+    /* padding: 20px; */
+    
+    border: 2px solid black;
+    /* border structure: độ dày, kiểu, màu */
+    box-sizing: border-box;
+    /* outline: 20px solid green; */
+    /* margin > outline > border > padding > content */
+    
+    font-size: 30px;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: blue;
+
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: rgb(251, 0, 255);
+
+}
+html, body {
+    font-size: 20px;
+    margin: 0;
+}
+.inner-div {
+    font-size: 1rem;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* đơn vị đo: px, em, rem, vh, vw */

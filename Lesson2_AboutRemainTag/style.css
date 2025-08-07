@@ -3,3 +3,11 @@ img {
     height: 150px;
     margin: 10px;
 }
+
+#list1 {
+    list-style-type: circle;
+}
+/* pseudo */
+#list1 .li1:nth-child(even) {
+    color: brown;
+}
